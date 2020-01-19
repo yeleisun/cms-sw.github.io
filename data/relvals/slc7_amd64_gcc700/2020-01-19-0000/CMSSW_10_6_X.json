@@ -50,6 +50,32 @@
     },
     {
         "exitcode": 0,
+        "id": "123.3",
+        "known_error": 0,
+        "name": "SingleMuPt1+SingleMuPt1FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 26
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.1",
+        "known_error": 0,
+        "name": "SinglePiPt1+SinglePiPt1FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 25
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "124.2",
         "known_error": 0,
         "name": "ZTT+ZTTFS",
@@ -58,6 +84,45 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 31
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.4",
+        "known_error": 0,
+        "name": "SinglePiPt10+SinglePiPt10FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 30
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.5",
+        "known_error": 0,
+        "name": "SinglePiPt100+SinglePiPt100FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 35
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.6",
+        "known_error": 0,
+        "name": "SingleGammaFlatPt10To10+SingleGammaFlatPt10To10FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 29
             }
         ]
     },
