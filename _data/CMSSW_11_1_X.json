@@ -1916,7 +1916,7 @@
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-14-1100/slc7_amd64_gcc820..IB/CMSSW_11_1_X_2020-01-14-1100/slc7_amd64_gcc820", 
                 "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-14-1100/slc7_aarch64_gcc820..IB/CMSSW_11_1_X_2020-01-14-1100/slc7_aarch64_gcc820", 
-                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-12-0000/cc8_amd64_gcc8..IB/CMSSW_11_1_X_2020-01-14-2300/cc8_amd64_gcc8", 
+                "cc8_amd64_gcc8": "Not Found..IB/CMSSW_11_1_X_2020-01-14-2300/cc8_amd64_gcc8", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc900..IB/CMSSW_11_1_X_2020-01-14-2300/slc7_amd64_gcc900", 
                 "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-13-2300/slc7_ppc64le_gcc820..ERR/CMSSW_11_1_X_2020-01-14-2300/slc7_ppc64le_gcc820"
             }, 
@@ -2457,7 +2457,7 @@
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc820", 
                 "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820", 
-                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-12-0000/cc8_amd64_gcc8..IB/CMSSW_11_1_X_2020-01-12-0000/cc8_amd64_gcc8", 
+                "cc8_amd64_gcc8": "Not Found..Not Found", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc900..IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc900", 
                 "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-12-2300/slc7_ppc64le_gcc820..ERR/CMSSW_11_1_X_2020-01-13-2300/slc7_ppc64le_gcc820"
             }, 
@@ -2471,7 +2471,7 @@
             "cmsdistTags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc820", 
                 "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820", 
-                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-12-0000/cc8_amd64_gcc8", 
+                "cc8_amd64_gcc8": "Not Found", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_1_X_2020-01-12-2300/slc7_amd64_gcc900", 
                 "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-13-2300/slc7_ppc64le_gcc820"
             }, 
@@ -3201,16 +3201,13 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [
-                "slc7_aarch64_gcc820", 
-                "cc8_amd64_gcc8"
+                "slc7_aarch64_gcc820"
             ], 
             "cmsdist_merged_prs": {
-                "slc7_aarch64_gcc820": [], 
-                "cc8_amd64_gcc8": []
+                "slc7_aarch64_gcc820": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820", 
-                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-12-0000/cc8_amd64_gcc8..IB/CMSSW_11_1_X_2020-01-12-0000/cc8_amd64_gcc8"
+                "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_1_X_2020-01-12-0000/slc7_aarch64_gcc820"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
@@ -3231,14 +3228,6 @@
                     "details": {
                         "num_fails": "4"
                     }
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc8", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-12-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
                 }
             ], 
             "ib_date": "2020-01-12-0000-0000", 
@@ -3252,17 +3241,6 @@
                         "num_passed": 2974, 
                         "known_failed": 49, 
                         "num_failed": 2
-                    }
-                }, 
-                {
-                    "done": true, 
-                    "arch": "cc8_amd64_gcc8", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-12-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3150, 
-                        "known_failed": 0, 
-                        "num_failed": 0
                     }
                 }
             ], 
@@ -3282,14 +3260,6 @@
                     "details": {
                         "ignoreWarning": 144
                     }
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc8", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-12-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 144
-                    }
                 }
             ], 
             "material_budget_v2": "not-found", 
@@ -3298,12 +3268,6 @@
                     "arch": "slc7_aarch64_gcc820", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-12-0000/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc8", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-12-0000/addOnTests.log", 
                     "details": {}
                 }
             ], 
@@ -3314,10 +3278,6 @@
             "dupDict": [
                 {
                     "arch": "slc7_aarch64_gcc820", 
-                    "passed": "passed"
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc8", 
                     "passed": "passed"
                 }
             ], 
