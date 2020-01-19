@@ -170,9 +170,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3, 
-                        "known_failed": 6, 
-                        "num_failed": 28
+                        "num_passed": 25, 
+                        "known_failed": 20, 
+                        "num_failed": 127
                     }
                 }
             ], 
@@ -215,7 +215,14 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_ppc64le_gcc820", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "check-headers": "inprogress", 
             "static_checks_v2": "inprogress", 
             "valgrind": "inprogress", 
