@@ -46,7 +46,7 @@
     "CMSSW_11_0_X": {
         "slc7_amd64_gcc820": {
             "status": "ok", 
-            "latest_IB": "CMSSW_11_0_X_2020-01-12-0000"
+            "latest_IB": "CMSSW_11_0_X_2020-01-12-2300"
         }, 
         "slc7_aarch64_gcc820": {
             "status": "unknown", 
