@@ -3550,6 +3550,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.864",
+        "known_error": 0,
+        "name": "RunJetHT2018B+RunJetHT2018B+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 535
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 1151
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.8642",
         "known_error": 0,
         "name": "RunJetHT2018BHEfail+RunJetHT2018BHEfail+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt_HEfail+HARVEST2018_HEfail",
@@ -3568,6 +3596,34 @@
                 "errors": 11,
                 "status": "PASSED",
                 "warnings": 1180
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.8643",
+        "known_error": 0,
+        "name": "RunJetHT2018BBadHcalMitig+RunJetHT2018BBadHcalMitig+HLTDR2_2018_BadHcalMitig+RECODR2_2018reHLT_skimJetHT_Prompt_BadHcalMitig+HARVEST2018_BadHcalMitig",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 789
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 1433
             },
             {
                 "errors": 26,
