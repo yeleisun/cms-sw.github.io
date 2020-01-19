@@ -1,5 +1,5 @@
 {
-    "CMSSW_11_1_X_2020-01-19-0000": "slc7_ppc64le_gcc820,slc7_aarch64_gcc820", 
+    "CMSSW_11_1_X_2020-01-19-0000": "slc7_ppc64le_gcc820,cc8_amd64_gcc8,slc7_aarch64_gcc820", 
     "CMSSW_9_3_X_2020-01-19-0000": "slc7_amd64_gcc630,slc6_amd64_gcc630", 
     "CMSSW_11_1_ROOT6_X_2020-01-13-2300": "slc7_amd64_gcc820", 
     "CMSSW_10_6_X_2020-01-17-1100": "slc7_amd64_gcc700", 
