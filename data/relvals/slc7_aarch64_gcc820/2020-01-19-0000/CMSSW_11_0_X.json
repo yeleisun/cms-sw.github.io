@@ -1,6 +1,29 @@
 [
     {
         "exitcode": 0,
+        "id": "1.0",
+        "known_error": 0,
+        "name": "ProdMinBias+ProdMinBias+DIGIPROD1+RECOPROD1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 35
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "2.0",
         "known_error": 0,
         "name": "ProdTTbar+ProdTTbar+DIGIPROD1+RECOPROD1",
@@ -248,6 +271,39 @@
                 "errors": 3,
                 "status": "PASSED",
                 "warnings": 242
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.29",
+        "known_error": 0,
+        "name": "RunMinBias2011B+RunMinBias2011B+HLTD+RECODR1reHLT+HARVESTDR1reHLT+SKIMDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 478
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 218
             }
         ]
     },

@@ -893,6 +893,39 @@
     },
     {
         "exitcode": 0,
+        "id": "7.2",
+        "known_error": 0,
+        "name": "Cosmics_UP18+Cosmics_UP18+DIGICOS_UP18+RECOCOS_UP18+ALCACOS_UP18+HARVESTCOS_UP18",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 110
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "7.21",
         "known_error": 0,
         "name": "Cosmics_UP17+Cosmics_UP17+DIGICOS_UP17+RECOCOS_UP17+ALCACOS_UP17+HARVESTCOS_UP17",
@@ -1081,6 +1114,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "8.1",
+        "known_error": 0,
+        "name": "BeamHalo_UP18+BeamHalo_UP18+DIGICOS_UP18+RECOCOS_UP18+ALCABH_UP18+HARVESTCOS_UP18",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 91
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 102
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
                 "errors": 0,
@@ -1555,6 +1621,29 @@
     },
     {
         "exitcode": 0,
+        "id": "109.0",
+        "known_error": 0,
+        "name": "H200ZZ4L+H200ZZ4L+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 102
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "110.0",
         "known_error": 0,
         "name": "SingleTauPt50Pythia+SingleTauPt50Pythia+DIGI+RECO",
@@ -1665,6 +1754,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 133
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "118.0",
+        "known_error": 0,
+        "name": "QCD_Pt_170_230+QCD_Pt_170_230+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 257
             }
         ]
     },
@@ -1861,6 +1973,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 15
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "125.0",
+        "known_error": 0,
+        "name": "ZPrime5000Dijet+ZPrime5000Dijet+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 198
             }
         ]
     },
@@ -11388,6 +11523,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4000.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGI+RECODBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 112
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 567
             }
         ]
     },
