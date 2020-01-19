@@ -8779,7 +8779,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.6-sun-00/CMSSW_10_6_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2227, 
+                            "num_passed": 2752, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -10962,7 +10962,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1565, 
+                            "num_passed": 1712, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -10973,7 +10973,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2101, 
+                            "num_passed": 2128, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16887,7 +16887,19 @@
                     }
                 ], 
                 "ib_date": "2020-01-19-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1.ROOT620-sun-00/CMSSW_11_1_ROOT620_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 10, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_11_1_ROOT620_X", 
                 "release_name": "CMSSW_11_1_ROOT620_X_2020-01-19-0000", 
                 "comp_baseline": "not-found", 
@@ -16920,7 +16932,14 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1.ROOT620-sun-00/CMSSW_11_1_ROOT620_X_2020-01-19-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -18918,7 +18937,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 110, 
+                            "num_passed": 197, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18929,9 +18948,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 652, 
+                            "num_passed": 986, 
                             "known_failed": 49, 
-                            "num_failed": 437
+                            "num_failed": 598
                         }
                     }
                 ], 
@@ -27066,7 +27085,7 @@
                         "details": {}
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
