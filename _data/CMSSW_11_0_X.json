@@ -69,21 +69,21 @@
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820"
             }, 
-            "static_checks_failures": "not-found", 
+            "static_checks_failures": {
+                "status": "found", 
+                "arch": "slc7_amd64_gcc820", 
+                "iterable": [
+                    "reports/modules2statics-filter1.txt\n"
+                ]
+            }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820"
             }, 
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sat/11.0-sat-11/CMSSW_11_0_X_2020-01-18-1100/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "igprof": "found", 
+            "base_branch": "CMSSW_11_0_X", 
             "compared_tags": "CMSSW_11_0_X_2020-01-17-2300-->CMSSW_11_0_X_2020-01-18-1100", 
             "dqm_tests": "found", 
             "utests": [
@@ -125,7 +125,14 @@
             ], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
-            "base_branch": "CMSSW_11_0_X", 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sat/11.0-sat-11/CMSSW_11_0_X_2020-01-18-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [
                 {
                     "arch": "slc7_amd64_gcc820", 
@@ -145,16 +152,11 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sat/11.0-sat-11/CMSSW_11_0_X_2020-01-18-1100/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
             "check-headers": "passed", 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc7_amd64_gcc820"
+            }, 
             "valgrind": "found", 
             "material_budget": "not-found", 
             "dupDict": [
@@ -164,10 +166,17 @@
                 }
             ], 
             "lizard": "found", 
-            "static_checks": "inprogress", 
+            "static_checks": "slc7_amd64_gcc820:reports/modules2statics-filter1.txt\n", 
             "isIB": true, 
             "inProgress": false, 
-            "igprof": "found", 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sat/11.0-sat-11/CMSSW_11_0_X_2020-01-18-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "found"
         }, 
         {
