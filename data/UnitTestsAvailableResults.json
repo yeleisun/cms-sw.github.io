@@ -8,6 +8,7 @@
     "CMSSW_11_1_ROOT6_X_2020-01-15-2300": "slc7_amd64_gcc820", 
     "CMSSW_11_1_GEANT4_X_2020-01-14-2300": "slc7_amd64_gcc820", 
     "CMSSW_10_6_X_2020-01-15-1100": "slc7_amd64_gcc700", 
+    "CMSSW_10_6_X_2020-01-19-0000": "slc7_amd64_gcc700", 
     "CMSSW_11_1_X_2020-01-14-1100": "slc7_amd64_gcc820,slc7_aarch64_gcc820", 
     "CMSSW_11_1_X_2020-01-18-1100": "slc7_amd64_gcc820,slc7_aarch64_gcc820", 
     "CMSSW_11_1_CLANG_X_2020-01-17-2300": "slc7_amd64_gcc820", 
