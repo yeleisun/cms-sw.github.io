@@ -9,7 +9,8 @@
             "cmsdist_merged_prs": {
                 "slc7_amd64_gcc820": [], 
                 "slc7_aarch64_gcc820": [], 
-                "cc8_amd64_gcc8": [
+                "cc8_amd64_gcc8": [], 
+                "slc7_amd64_gcc900": [
                     {
                         "hash": "691a3aee46156f10d23a3d2e746f0d35a65e2b65", 
                         "title": "create single crab to deploy helper scripts", 
@@ -20,7 +21,88 @@
                         "author_login": "cms-sw"
                     }
                 ], 
-                "slc7_amd64_gcc900": [
+                "slc7_ppc64le_gcc820": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-18-1100/slc7_amd64_gcc820..IB/CMSSW_11_1_X/master", 
+                "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-19-0000/slc7_aarch64_gcc820..IB/CMSSW_11_1_X/master", 
+                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-19-0000/cc8_amd64_gcc8..IB/CMSSW_11_1_X/cc8", 
+                "slc7_amd64_gcc900": "IB/CMSSW_11_1_X_2020-01-15-2300/slc7_amd64_gcc900..IB/CMSSW_11_1_X/gcc9", 
+                "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-19-0000/slc7_ppc64le_gcc820..IB/CMSSW_11_1_X/master"
+            }, 
+            "static_checks_failures": "not-found", 
+            "cmsdistTags": {}, 
+            "flawfinder": "inprogress", 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "compared_tags": "CMSSW_11_1_X_2020-01-19-0000-->CMSSW_11_1_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2020-01-19-0000-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_1_X", 
+            "release_name": "CMSSW_11_1_X", 
+            "comp_baseline": "inprogress", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "45b0f1145d6c74834902112a4cd5b49d363e8529", 
+                    "title": "Be able to use external services with TestProcessor", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28759", 
+                    "number": "28759", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "9edb055b4f3570c34dc15b705e1b1dee0b742a48", 
+                    "title": "Add parameter for treatment of charged high eta in PUPPI", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28735", 
+                    "number": "28735", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ahinzmann"
+                }, 
+                {
+                    "hash": "68c0af5add20516db6088d1658b3d8ee80b88d63", 
+                    "title": "Implement mkFit customization in initialStep with a Modifier", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28755", 
+                    "number": "28755", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }
+            ], 
+            "base_branch": "CMSSW_11_1_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "addons": [], 
+            "check-headers": "inprogress", 
+            "static_checks_v2": "inprogress", 
+            "valgrind": "inprogress", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
+            "isIB": false, 
+            "inProgress": false, 
+            "igprof": "inprogress", 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "comp_baseline_state": "ok", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_aarch64_gcc820", 
+                "cc8_amd64_gcc8", 
+                "slc7_ppc64le_gcc820"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_aarch64_gcc820": [], 
+                "cc8_amd64_gcc8": [
                     {
                         "hash": "691a3aee46156f10d23a3d2e746f0d35a65e2b65", 
                         "title": "create single crab to deploy helper scripts", 
@@ -44,42 +126,105 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-18-1100/slc7_amd64_gcc820..IB/CMSSW_11_1_X/master", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-18-1100/slc7_aarch64_gcc820..IB/CMSSW_11_1_X/master", 
-                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-15-2300/cc8_amd64_gcc8..IB/CMSSW_11_1_X/cc8", 
-                "slc7_amd64_gcc900": "IB/CMSSW_11_1_X_2020-01-15-2300/slc7_amd64_gcc900..IB/CMSSW_11_1_X/gcc9", 
-                "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-17-2300/slc7_ppc64le_gcc820..IB/CMSSW_11_1_X/master"
+                "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-18-1100/slc7_aarch64_gcc820..IB/CMSSW_11_1_X_2020-01-19-0000/slc7_aarch64_gcc820", 
+                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-15-2300/cc8_amd64_gcc8..IB/CMSSW_11_1_X_2020-01-19-0000/cc8_amd64_gcc8", 
+                "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-17-2300/slc7_ppc64le_gcc820..ERR/CMSSW_11_1_X_2020-01-19-0000/slc7_ppc64le_gcc820"
             }, 
             "static_checks_failures": "not-found", 
-            "cmsdistTags": {}, 
+            "cmsdistTags": {
+                "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-19-0000/slc7_aarch64_gcc820", 
+                "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2020-01-19-0000/cc8_amd64_gcc8", 
+                "slc7_ppc64le_gcc820": "ERR/CMSSW_11_1_X_2020-01-19-0000/slc7_ppc64le_gcc820"
+            }, 
             "flawfinder": "inprogress", 
-            "next_ib": true, 
+            "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [], 
-            "compared_tags": "CMSSW_11_1_X_2020-01-18-1100-->CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_X_2020-01-18-1100-->CMSSW_11_1_X_2020-01-19-0000", 
             "dqm_tests": "inprogress", 
-            "utests": [], 
-            "ib_date": "2020-01-18-1100-0001", 
+            "utests": [
+                {
+                    "arch": "slc7_aarch64_gcc820", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_ppc64le_gcc820", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc8", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2020-01-19-0000-0000", 
             "relvals": [], 
             "release_queue": "CMSSW_11_1_X", 
-            "release_name": "CMSSW_11_1_X", 
+            "release_name": "CMSSW_11_1_X_2020-01-19-0000", 
             "comp_baseline": "inprogress", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
             "base_branch": "CMSSW_11_1_X", 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "slc7_aarch64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 145
+                    }
+                }, 
+                {
+                    "arch": "slc7_ppc64le_gcc820", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 12, 
+                        "miscError": 2, 
+                        "compError": 5, 
+                        "ignoreWarning": 156, 
+                        "linkError": 2
+                    }
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc8", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 145
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "addons": [], 
             "check-headers": "inprogress", 
             "static_checks_v2": "inprogress", 
             "valgrind": "inprogress", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "slc7_aarch64_gcc820", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc8", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "slc7_ppc64le_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
             "lizard": "inprogress", 
             "static_checks": "inprogress", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "igprof": "inprogress", 
             "hlt_tests": "inprogress"
@@ -128,7 +273,13 @@
                 "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-15-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_X_2020-01-18-1100/slc7_amd64_gcc820", 
                 "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-15-2300/slc7_aarch64_gcc820..IB/CMSSW_11_1_X_2020-01-18-1100/slc7_aarch64_gcc820"
             }, 
-            "static_checks_failures": "not-found", 
+            "static_checks_failures": {
+                "status": "found", 
+                "arch": "slc7_amd64_gcc820", 
+                "iterable": [
+                    "reports/modules2statics-filter1.txt\n"
+                ]
+            }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2020-01-18-1100/slc7_amd64_gcc820", 
                 "slc7_aarch64_gcc820": "IB/CMSSW_11_1_X_2020-01-18-1100/slc7_aarch64_gcc820"
@@ -136,14 +287,8 @@
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sat/11.1-sat-11/CMSSW_11_1_X_2020-01-18-1100/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "igprof": "found", 
+            "base_branch": "CMSSW_11_1_X", 
             "compared_tags": "CMSSW_11_1_X_2020-01-17-2300-->CMSSW_11_1_X_2020-01-18-1100", 
             "dqm_tests": "inprogress", 
             "utests": [
@@ -204,7 +349,14 @@
             ], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
-            "base_branch": "CMSSW_11_1_X", 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sat/11.1-sat-11/CMSSW_11_1_X_2020-01-18-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [
                 {
                     "arch": "slc7_amd64_gcc820", 
@@ -234,6 +386,27 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
+            "check-headers": "passed", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc7_amd64_gcc820"
+            }, 
+            "valgrind": "found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "slc7_aarch64_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
+            "lizard": "found", 
+            "static_checks": "slc7_amd64_gcc820:reports/modules2statics-filter1.txt\n", 
+            "isIB": true, 
+            "inProgress": false, 
             "addons": [
                 {
                     "arch": "slc7_amd64_gcc820", 
@@ -248,25 +421,6 @@
                     "details": {}
                 }
             ], 
-            "check-headers": "passed", 
-            "static_checks_v2": "inprogress", 
-            "valgrind": "found", 
-            "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": "passed"
-                }, 
-                {
-                    "arch": "slc7_aarch64_gcc820", 
-                    "passed": "passed"
-                }
-            ], 
-            "lizard": "found", 
-            "static_checks": "inprogress", 
-            "isIB": true, 
-            "inProgress": false, 
-            "igprof": "found", 
             "hlt_tests": "found"
         }, 
         {

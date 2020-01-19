@@ -111,6 +111,15 @@
                     "author_login": "gartung"
                 }, 
                 {
+                    "hash": "57553401c56bd9417f87efe0c28a62e690e55ff1", 
+                    "title": "Support of plot-specific input paramters for Payload Inspector", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28648", 
+                    "number": "28648", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
                     "hash": "b4ebcd1821622801f32808481157d6eff3551de3", 
                     "title": "Reduce dependencies on RecoEgamma and requirements for RecoEgamma", 
                     "url": "https://github.com/cms-sw/cmssw/pull/28684", 
@@ -156,6 +165,15 @@
                     "author_login": "guitargeek"
                 }, 
                 {
+                    "hash": "68c0af5add20516db6088d1658b3d8ee80b88d63", 
+                    "title": "Implement mkFit customization in initialStep with a Modifier", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28755", 
+                    "number": "28755", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
                     "hash": "0deef1bd925b4e94cbbb560cada9c5fe9d67c72e", 
                     "title": "Utilities/StaticAnalysers: Unregister unused getParamDumper checker ", 
                     "url": "https://github.com/cms-sw/cmssw/pull/28744", 
@@ -174,13 +192,13 @@
                     "author_login": "wddgit"
                 }, 
                 {
-                    "hash": "b8d6745ee188904bce61732ed98f12c81de523a3", 
-                    "title": "Removing unused variables from \"CTPPSPixelDQMSource.cc\" - fix suggested in PR #28726", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/28733", 
-                    "number": "28733", 
+                    "hash": "45b0f1145d6c74834902112a4cd5b49d363e8529", 
+                    "title": "Be able to use external services with TestProcessor", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28759", 
+                    "number": "28759", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "AndreaBellora"
+                    "author_login": "Dr15Jones"
                 }, 
                 {
                     "hash": "4e7a960a139dc9654fd4b311a3a2e7a7935d2b28", 
@@ -192,13 +210,22 @@
                     "author_login": "mmusich"
                 }, 
                 {
-                    "hash": "57553401c56bd9417f87efe0c28a62e690e55ff1", 
-                    "title": "Support of plot-specific input paramters for Payload Inspector", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/28648", 
-                    "number": "28648", 
+                    "hash": "9edb055b4f3570c34dc15b705e1b1dee0b742a48", 
+                    "title": "Add parameter for treatment of charged high eta in PUPPI", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28735", 
+                    "number": "28735", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "ggovi"
+                    "author_login": "ahinzmann"
+                }, 
+                {
+                    "hash": "b8d6745ee188904bce61732ed98f12c81de523a3", 
+                    "title": "Removing unused variables from \"CTPPSPixelDQMSource.cc\" - fix suggested in PR #28726", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28733", 
+                    "number": "28733", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "AndreaBellora"
                 }, 
                 {
                     "hash": "8426162f4dba2b4161aae7ead03ede2ae7b06c46", 
