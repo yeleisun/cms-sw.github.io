@@ -215,6 +215,34 @@
     },
     {
         "exitcode": 0,
+        "id": "134.813",
+        "known_error": 0,
+        "name": "RunCosmics2015C+RunCosmics2015C+RECOCOSDRUN2+ALCACOSDRUN2+HARVESTDCRUN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 104,
+                "status": "PASSED",
+                "warnings": 848
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "135.12",
         "known_error": 0,
         "name": "QCD_Pt_80_120_13+QCD_Pt_80_120FS_13+HARVESTUP15FS+MINIAODMCUP15FS",
@@ -1324,6 +1352,34 @@
     },
     {
         "exitcode": 0,
+        "id": "11634.501",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2021_GenSimFullINPUT+DigiFull_2021+RecoFullPatatrack_PixelOnlyCPU_2021+HARVESTFullPatatrack_PixelOnlyCPU_2021",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 161
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11634.502",
         "known_error": 0,
         "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2021_GenSimFullINPUT+DigiFull_2021+RecoFullPatatrack_PixelOnlyGPU_2021+HARVESTFullPatatrack_PixelOnlyGPU_2021",
@@ -1342,6 +1398,62 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 27
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11650.501",
+        "known_error": 0,
+        "name": "ZMM_14+ZMM_14TeV_TuneCUETP8M1_2021_GenSimFullINPUT+DigiFull_2021+RecoFullPatatrack_PixelOnlyCPU_2021+HARVESTFullPatatrack_PixelOnlyCPU_2021",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 95
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11650.502",
+        "known_error": 0,
+        "name": "ZMM_14+ZMM_14TeV_TuneCUETP8M1_2021_GenSimFullINPUT+DigiFull_2021+RecoFullPatatrack_PixelOnlyGPU_2021+HARVESTFullPatatrack_PixelOnlyGPU_2021",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 85
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 17
             },
             {
                 "errors": 13,
