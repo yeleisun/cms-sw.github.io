@@ -109,7 +109,7 @@
 202001150507.38 data/relvals/slc7_amd64_gcc700/2020-01-14-2300/CMSSW_10_6_X.json
 202001141653.05 data/relvals/slc7_amd64_gcc700/2020-01-14-1100/CMSSW_10_6_X.json
 202001121326.13 data/relvals/slc7_amd64_gcc700/2020-01-12-0000/CMSSW_10_6_X.json
-202001190701.33 data/relvals/slc7_amd64_gcc700/2020-01-19-0000/CMSSW_10_2_X.json
+202001190705.55 data/relvals/slc7_amd64_gcc700/2020-01-19-0000/CMSSW_10_2_X.json
 202001130501.38 data/relvals/slc7_amd64_gcc700/2020-01-12-2300/CMSSW_10_6_X.json
 202001131652.42 data/relvals/slc7_amd64_gcc700/2020-01-13-1100/CMSSW_10_6_X.json
 202001140537.30 data/relvals/slc7_amd64_gcc700/2020-01-13-2300/CMSSW_10_6_X.json
