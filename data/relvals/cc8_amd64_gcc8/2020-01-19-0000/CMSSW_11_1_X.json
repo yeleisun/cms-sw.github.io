@@ -6,13 +6,37 @@
         "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2021_GenSimFullINPUT+DigiFull_2021+RecoFull_trackingMkFit_2021+HARVESTFull_2021",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 98
             },
             {
-                "status": "FAILED"
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.6",
+        "known_error": 0,
+        "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCAR1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 70,
+                "status": "PASSED",
+                "warnings": 354
             }
         ]
     },
@@ -23,10 +47,91 @@
         "name": "TTbar_13_94Xv1NanoAODINPUT+TTbar_13_94Xv1NanoAODINPUT+NANOAODMC2017_94XMiniAODv1",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 107
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4003.0",
+        "known_error": 0,
+        "name": "ZMM+ZMMINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 171
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 131
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "20634.21",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2026D41PU_GenSimHLBeamSpotFull14INPUT+DigiFullTriggerPU_2026D41PU+RecoFullGlobalPU_ProdLike_2026D41PU+MiniAODFullGlobalPU_ProdLike_2026D41PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 229
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 408
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 59
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.0",
+        "known_error": 0,
+        "name": "PREMIXUP15_PU25+PREMIXUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.17",
+        "known_error": 0,
+        "name": "PREMIXUP17_PU25+PREMIXUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             }
         ]
     },
@@ -37,7 +142,9 @@
         "name": "PREMIXUP18_PU25+PREMIXUP18_PU25",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
             }
         ]
     }
