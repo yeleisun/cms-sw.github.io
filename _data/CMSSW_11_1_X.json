@@ -172,9 +172,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 306, 
+                        "num_passed": 602, 
                         "known_failed": 49, 
-                        "num_failed": 271
+                        "num_failed": 413
                     }
                 }
             ], 
