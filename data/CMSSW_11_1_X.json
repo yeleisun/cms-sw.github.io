@@ -144,15 +144,17 @@
             "dqm_tests": "inprogress", 
             "utests": [
                 {
+                    "arch": "slc7_ppc64le_gcc820", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "31"
+                    }
+                }, 
+                {
                     "arch": "slc7_aarch64_gcc820", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_ppc64le_gcc820", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/new/logAnalysis.pkl']", 
                     "details": {}
                 }, 
                 {
@@ -171,7 +173,7 @@
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
                         "num_passed": 25, 
-                        "known_failed": 20, 
+                        "known_failed": 26, 
                         "num_failed": 127
                     }
                 }
