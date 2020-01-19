@@ -10973,7 +10973,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2057, 
+                            "num_passed": 2064, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18850,9 +18850,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 602, 
+                            "num_passed": 651, 
                             "known_failed": 49, 
-                            "num_failed": 413
+                            "num_failed": 437
                         }
                     }
                 ], 
