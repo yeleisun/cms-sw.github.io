@@ -8835,7 +8835,7 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "found", 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
@@ -10974,8 +10974,8 @@
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 2905, 
-                            "known_failed": 0, 
-                            "num_failed": 51
+                            "known_failed": 49, 
+                            "num_failed": 2
                         }
                     }
                 ], 
