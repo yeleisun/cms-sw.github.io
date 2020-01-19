@@ -140,7 +140,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2020-01-19-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -11035,21 +11042,21 @@
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820"
                 }, 
-                "static_checks_failures": "not-found", 
+                "static_checks_failures": {
+                    "status": "found", 
+                    "arch": "slc7_amd64_gcc820", 
+                    "iterable": [
+                        "reports/modules2statics-filter1.txt\n"
+                    ]
+                }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820"
                 }, 
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "fwlite": [
-                    {
-                        "arch": "slc7_amd64_gcc820", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.0-fri-23/CMSSW_11_0_X_2020-01-17-2300/new_FWLITE/logAnalysis.pkl", 
-                        "details": {}
-                    }
-                ], 
+                "igprof": "found", 
+                "base_branch": "CMSSW_11_0_X", 
                 "compared_tags": "CMSSW_11_0_X_2020-01-17-1100-->CMSSW_11_0_X_2020-01-17-2300", 
                 "dqm_tests": "found", 
                 "utests": [
@@ -11091,7 +11098,14 @@
                 ], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
-                "base_branch": "CMSSW_11_0_X", 
+                "fwlite": [
+                    {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.0-fri-23/CMSSW_11_0_X_2020-01-17-2300/new_FWLITE/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
                 "invalid_includes": [
                     {
                         "arch": "slc7_amd64_gcc820", 
@@ -11111,14 +11125,6 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc820", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.0-fri-23/CMSSW_11_0_X_2020-01-17-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
                 "check-headers": "passed", 
                 "static_checks_v2": {
                     "status": "passed", 
@@ -11133,10 +11139,17 @@
                     }
                 ], 
                 "lizard": "found", 
-                "static_checks": "slc7_amd64_gcc820:", 
+                "static_checks": "slc7_amd64_gcc820:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
-                "igprof": "found", 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.0-fri-23/CMSSW_11_0_X_2020-01-17-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "found"
             }, 
             {
@@ -18656,7 +18669,7 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "found", 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
@@ -26519,7 +26532,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 175, 
+                            "num_passed": 350, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -30264,12 +30277,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_amd64_gcc630", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 35, 
                             "known_failed": 2, 
-                            "num_failed": 0
+                            "num_failed": 2
                         }
                     }
                 ], 
@@ -30828,7 +30841,19 @@
                     }
                 ], 
                 "ib_date": "2020-01-19-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc630", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 6, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_9_4_X", 
                 "release_name": "CMSSW_9_4_X_2020-01-19-0000", 
