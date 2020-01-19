@@ -76,7 +76,7 @@
         }, 
         "slc7_aarch64_gcc820": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_11_1_X_2020-01-12-0000"
+            "latest_IB": "CMSSW_11_1_X_2020-01-13-1100"
         }, 
         "cc8_amd64_gcc8": {
             "status": "unknown", 
