@@ -61,7 +61,7 @@
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-19-0000/slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_0_X_2020-01-19-0000/slc7_aarch64_gcc820"
+                "slc7_aarch64_gcc820": "Not Found..IB/CMSSW_11_0_X_2020-01-19-0000/slc7_aarch64_gcc820"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
@@ -430,7 +430,7 @@
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820"
+                "slc7_aarch64_gcc820": "Not Found..Not Found"
             }, 
             "static_checks_failures": {
                 "status": "found", 
@@ -441,7 +441,7 @@
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820"
+                "slc7_aarch64_gcc820": "Not Found"
             }, 
             "flawfinder": "found", 
             "next_ib": false, 
@@ -1125,7 +1125,7 @@
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820"
+                "slc7_aarch64_gcc820": "Not Found..Not Found"
             }, 
             "static_checks_failures": {
                 "status": "found", 
@@ -1136,7 +1136,7 @@
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820"
+                "slc7_aarch64_gcc820": "Not Found"
             }, 
             "flawfinder": "found", 
             "next_ib": false, 
@@ -1854,16 +1854,13 @@
                 }
             ], 
             "tests_archs": [
-                "slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820"
+                "slc7_amd64_gcc820"
             ], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc820": [], 
-                "slc7_aarch64_gcc820": []
+                "slc7_amd64_gcc820": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820", 
-                "slc7_aarch64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_aarch64_gcc820"
+                "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2020-01-12-0000/slc7_amd64_gcc820"
             }, 
             "static_checks_failures": {
                 "status": "found", 
@@ -1891,14 +1888,6 @@
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "slc7_aarch64_gcc820", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-12-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "4"
-                    }
                 }
             ], 
             "ib_date": "2020-01-12-0000-0000", 
@@ -1912,17 +1901,6 @@
                         "num_passed": 3086, 
                         "known_failed": 0, 
                         "num_failed": 0
-                    }
-                }, 
-                {
-                    "done": true, 
-                    "arch": "slc7_aarch64_gcc820", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-12-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2910, 
-                        "known_failed": 49, 
-                        "num_failed": 2
                     }
                 }
             ], 
@@ -1977,14 +1955,6 @@
                     "details": {
                         "ignoreWarning": 209
                     }
-                }, 
-                {
-                    "arch": "slc7_aarch64_gcc820", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-12-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 209
-                    }
                 }
             ], 
             "material_budget_v2": "not-found", 
@@ -1999,10 +1969,6 @@
                 {
                     "arch": "slc7_amd64_gcc820", 
                     "passed": "passed"
-                }, 
-                {
-                    "arch": "slc7_aarch64_gcc820", 
-                    "passed": "passed"
                 }
             ], 
             "lizard": "found", 
@@ -2014,12 +1980,6 @@
                     "arch": "slc7_amd64_gcc820", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-12-0000/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_aarch64_gcc820", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2020-01-12-0000/addOnTests.log", 
                     "details": {}
                 }
             ], 
