@@ -68,7 +68,13 @@
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_6_X_2020-01-12-0000/slc7_amd64_gcc700..IB/CMSSW_10_6_X_2020-01-12-0000/slc7_amd64_gcc700"
             }, 
-            "static_checks_failures": "not-found", 
+            "static_checks_failures": {
+                "status": "found", 
+                "arch": "slc7_amd64_gcc700", 
+                "iterable": [
+                    "reports/modules2statics-filter1.txt\n"
+                ]
+            }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_6_X_2020-01-12-0000/slc7_amd64_gcc700"
             }, 
@@ -143,7 +149,10 @@
                     "details": {}
                 }
             ], 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc7_amd64_gcc700"
+            }, 
             "valgrind": "found", 
             "material_budget": "not-found", 
             "dupDict": [
@@ -153,7 +162,7 @@
                 }
             ], 
             "lizard": "found", 
-            "static_checks": "inprogress", 
+            "static_checks": "slc7_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
             "isIB": true, 
             "inProgress": false, 
             "igprof": "found", 
