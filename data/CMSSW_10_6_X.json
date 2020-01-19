@@ -103,7 +103,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.6-sun-00/CMSSW_10_6_X_2020-01-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1624, 
+                        "num_passed": 1940, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -1723,7 +1723,7 @@
             "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [], 
-            "compared_tags": "CMSSW_10_6_X_2020-01-12-0000-->CMSSW_10_6_X_2020-01-12-0000", 
+            "compared_tags": "CMSSW_10_6_8-->CMSSW_10_6_X_2020-01-12-0000", 
             "dqm_tests": "found", 
             "utests": [], 
             "ib_date": "2020-01-12-0000-0000", 
@@ -1733,7 +1733,44 @@
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_6_X_2020-01-12-0000/slc7_amd64_gcc700/-GenuineIntel/matrix-results", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "cacb16ed995152cc3ff44765f88b7c881148da82", 
+                    "title": "Backport of #28430 (Add variables for PileUp Jet ID BDT in JME Custom-NanoAODs)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28599", 
+                    "number": "28599", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "nurfikri89"
+                }, 
+                {
+                    "hash": "61e7c0117b5c690186bfaff1b60cb88e5eda4250", 
+                    "title": "[DQM] Updated the client for MuonMonitor in online DQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28489", 
+                    "number": "28489", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "calderona"
+                }, 
+                {
+                    "hash": "7b14f8778e174d72a64a9df3ede189219ab374f6", 
+                    "title": "HCALDQM: Run3 era, add compatibility for new uTCA HO (10_6_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28485", 
+                    "number": "28485", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "DryRun"
+                }, 
+                {
+                    "hash": "a3a46d133415a5dd82047e2d564bdcba5ce948f4", 
+                    "title": " Introducing SiPixelCalSingleMuon ALCARECO", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28574", 
+                    "number": "28574", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "tvami"
+                }
+            ], 
             "base_branch": "CMSSW_10_6_X", 
             "invalid_includes": [], 
             "builds": [], 
@@ -1752,6 +1789,382 @@
             "inProgress": false, 
             "igprof": "found", 
             "hlt_tests": "found"
+        }, 
+        {
+            "comp_baseline_state": "ok", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
+            "static_checks_failures": "not-found", 
+            "cmsdistTags": {}, 
+            "flawfinder": "inprogress", 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "compared_tags": "CMSSW_10_6_4-->CMSSW_10_6_8", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "0002-CMSSW_10_6_8", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_6_X", 
+            "release_name": "CMSSW_10_6_8", 
+            "comp_baseline": "inprogress", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "bb877088c9298fbe21d27dc0d85d7a113565eb43", 
+                    "title": "Adding HTXS stage 1.2 classification (106X backport)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28465", 
+                    "number": "28465", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "adewit"
+                }, 
+                {
+                    "hash": "0edccecc988309a3f3a576fd1277c8e5e4fbf85c", 
+                    "title": "Backport of \"Changes for new trained regression for UL 2016\" in 10_6_X  ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28508", 
+                    "number": "28508", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jainshilpi"
+                }, 
+                {
+                    "hash": "7198b8f583a044f283429ab1293f21f9841c4f2a", 
+                    "title": "[10.6.X]  Dynamical APV gain simulation (backport)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28160", 
+                    "number": "28160", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CMSTrackerDPG"
+                }, 
+                {
+                    "hash": "aed938ab3eae849af9581334f7d41d7c68eb0129", 
+                    "title": "DQM: Added new package MuonMonitor for cosmic muons", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28251", 
+                    "number": "28251", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "calderona"
+                }, 
+                {
+                    "hash": "1e3ebc7c91bb704eab2fb6afa481794e8d39353d", 
+                    "title": "Backport of #27826 (Add customized NanoAOD content for JetMET JERC studies)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28052", 
+                    "number": "28052", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "nurfikri89"
+                }, 
+                {
+                    "hash": "f25b40a2562e19490eaa59b045dd8bf389adcc64", 
+                    "title": "Fix snapshot in data offline GTs and Egamma regression, and update Strip 2018 MC conditions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28053", 
+                    "number": "28053", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "tocheng"
+                }, 
+                {
+                    "hash": "c2292f35140afbcf8670f2143fe12205e7b15191", 
+                    "title": "L1TrackTrigger TTTrackmods CMSSW_10", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/27688", 
+                    "number": "27688", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mdhildreth"
+                }, 
+                {
+                    "hash": "acf7bb8fccb9d23c25f1ccf6c03b69427a8f7ad7", 
+                    "title": "[10_6_X] Fix a discrepancy in Puppi weights when running on MiniAOD w/ useExistingWeights=False", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28169", 
+                    "number": "28169", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "hqucms"
+                }, 
+                {
+                    "hash": "6607705537d54e177ffd52fa92aa10206de266b7", 
+                    "title": "Fixup of L1REPACK for tasks", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28013", 
+                    "number": "28013", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "d86d8557c1b5655ff696d1b2e5d8f6ce56e4fbbe", 
+                    "title": "NanoAODv6 updates [106X]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28182", 
+                    "number": "28182", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-nanoAOD"
+                }, 
+                {
+                    "hash": "acf4d1bb662ecc1ea4d996d504d3f9156cd2769f", 
+                    "title": "Backport jetid updates #27184 #27691 to 106X ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28094", 
+                    "number": "28094", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "knash"
+                }, 
+                {
+                    "hash": "ce23314216994c6b2f56faa0c2ebfca1a92fbae5", 
+                    "title": "Enable pt-dependent JER-SF and phi-dependent JEC application in PAT [106X backport]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28097", 
+                    "number": "28097", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ahinzmann"
+                }, 
+                {
+                    "hash": "b5acadb71e3198d9fd7c5853d992af89382ac1d7", 
+                    "title": "Adding cosmics path for HLT validation (106X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28126", 
+                    "number": "28126", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "47ecd1b5e104ad2a615f7eb31f00ff0f99379dc8", 
+                    "title": "Add enforceGUIDInFileName option to PoolSource and EmbeddedRootSource (10_6_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28587", 
+                    "number": "28587", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
+                    "hash": "3c1be08555ce47ce5e063bcb10c5448f0bb7b84e", 
+                    "title": "[10.6.X] Backport of APV Simulation RelVals", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28513", 
+                    "number": "28513", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "69acd15dd2a12545a8941dfb807a0368635dc7ed", 
+                    "title": "[10.6.X] Activate SiStrip Dynamical APV gain simulation for 2016 UL MC", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28512", 
+                    "number": "28512", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CMSTrackerDPG"
+                }, 
+                {
+                    "hash": "296b32bc9f425bcd1dce18e859727925c1e4c16e", 
+                    "title": " 106X backport of isolated particle level photon", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28411", 
+                    "number": "28411", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "AndrewLevin"
+                }, 
+                {
+                    "hash": "b996370c5624c9e83e3adc61fe41f7c469044f55", 
+                    "title": "Jet energy resolution smearing with systematic uncertainties split up [106X backport]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28517", 
+                    "number": "28517", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ahinzmann"
+                }, 
+                {
+                    "hash": "1534bd066511910afdc27ab3496815b310ef7c42", 
+                    "title": "A fix for missing SelectEvents configuration option", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28475", 
+                    "number": "28475", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "andrius-k"
+                }, 
+                {
+                    "hash": "ca7c5c8fad3877d83bfa4df7d0f37a2ba63044ae", 
+                    "title": "Fixing VID return value for HEEP Trk Iso: 10_6_X ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/27945", 
+                    "number": "27945", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Sam-Harper"
+                }, 
+                {
+                    "hash": "cafc91fb5a18438d46a83cafa720c19a74caa8de", 
+                    "title": "Tau Validation/DQM: switching deepTau version from v2 to v2p1 for CMSSW10_6_X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28177", 
+                    "number": "28177", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "aspiezia"
+                }, 
+                {
+                    "hash": "d95d5ec989040199f14f0b0c1bd5188c18a1babf", 
+                    "title": "Fix wrong parenthesis in era switches for UL [106X]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28302", 
+                    "number": "28302", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-nanoAOD"
+                }, 
+                {
+                    "hash": "88a65dc368d79f2fcc0b4218dee6825cddbbfef7", 
+                    "title": "A fix for DQM HV per lumi plot", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28026", 
+                    "number": "28026", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "andrius-k"
+                }, 
+                {
+                    "hash": "8a58caf186611921611fbbd6cc7950a8750bfac5", 
+                    "title": "Fix ExpandVisitor.result() to work also with an empty result (10_6_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28007", 
+                    "number": "28007", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
+                    "hash": "d0d33b620a35a23d937231fde7b41bd330f6d885", 
+                    "title": "Global tags for Run 2 UL reprocessing [10_6_X]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28577", 
+                    "number": "28577", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "christopheralanwest"
+                }, 
+                {
+                    "hash": "08f1fea1e03c078bdce550a6d9e4b11e4fa676e0", 
+                    "title": "DQM tau miniaod validation CMSSW_106X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/27985", 
+                    "number": "27985", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "aspiezia"
+                }, 
+                {
+                    "hash": "063d85e05018dc5b0ff341980f69dfd06c64de97", 
+                    "title": "color reconnection tunes for CP5", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28347", 
+                    "number": "28347", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "efeyazgan"
+                }, 
+                {
+                    "hash": "041e1a1cfb67035363d4f6683a90e6071d05aa56", 
+                    "title": "Updating Puppiproducer to include fillDescriptions (backport 106X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28137", 
+                    "number": "28137", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alefisico"
+                }, 
+                {
+                    "hash": "3062388b9e3d978fc9eb4154e4718a072de27e4b", 
+                    "title": "Muon FSR recovery for miniaod and nanoaod [106X]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28136", 
+                    "number": "28136", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "peruzzim"
+                }, 
+                {
+                    "hash": "33bf3a3d5c4a97590eb4976b7ecf77f6bfe1c354", 
+                    "title": "Backport of #27988 (Truncate pt of PackedCandidate)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28043", 
+                    "number": "28043", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rappoccio"
+                }, 
+                {
+                    "hash": "63047548fb24ae0f0c07fa8a70f49d8ad9a5f82f", 
+                    "title": "Add parameters for high pT particle protection in PUPPI [106X backport]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28560", 
+                    "number": "28560", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ahinzmann"
+                }, 
+                {
+                    "hash": "7dcc3164f6b0c43c54aeee5e7e710bafe1ac926d", 
+                    "title": "Restore Disabled PCA inputs for deepTau v2 (10_6_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28046", 
+                    "number": "28046", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }, 
+                {
+                    "hash": "03415b9bc3eede76697abb01635b67ea7a784cb2", 
+                    "title": "add pileup scenario for 2016 ultra legacy (10_6_X backport)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28614", 
+                    "number": "28614", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gkrintir"
+                }
+            ], 
+            "base_branch": "CMSSW_10_6_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "addons": [], 
+            "static_checks_v2": "inprogress", 
+            "valgrind": "inprogress", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
+            "isIB": false, 
+            "inProgress": false, 
+            "igprof": "inprogress", 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "comp_baseline_state": "ok", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
+            "static_checks_failures": "not-found", 
+            "cmsdistTags": {}, 
+            "flawfinder": "inprogress", 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "compared_tags": "CMSSW_10_6_4-->CMSSW_10_6_4", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "0001-CMSSW_10_6_4", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_6_X", 
+            "release_name": "CMSSW_10_6_4", 
+            "comp_baseline": "inprogress", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "base_branch": "CMSSW_10_6_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "addons": [], 
+            "static_checks_v2": "inprogress", 
+            "valgrind": "inprogress", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
+            "isIB": false, 
+            "inProgress": false, 
+            "igprof": "inprogress", 
+            "hlt_tests": "inprogress"
         }
     ]
 }
