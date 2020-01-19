@@ -1,0 +1,668 @@
+{
+    "base_branch": "CMSSW_11_1_X", 
+    "release_name": "CMSSW_11_1_ROOT620_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc820": [
+                    {
+                        "hash": "691a3aee46156f10d23a3d2e746f0d35a65e2b65", 
+                        "title": "create single crab to deploy helper scripts", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5473", 
+                        "number": "5473", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_X/rootnext"
+            }, 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_ROOT620_X_2020-01-17-2300-->CMSSW_11_1_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2020-01-17-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_1_ROOT620_X", 
+            "release_name": "CMSSW_11_1_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc820"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc820": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_ROOT620_X_2020-01-16-2300-->CMSSW_11_1_ROOT620_X_2020-01-17-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.1.ROOT620-fri-23/CMSSW_11_1_ROOT620_X_2020-01-17-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2020-01-17-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.1.ROOT620-fri-23/CMSSW_11_1_ROOT620_X_2020-01-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3164, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_1_ROOT620_X", 
+            "release_name": "CMSSW_11_1_ROOT620_X_2020-01-17-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "0deef1bd925b4e94cbbb560cada9c5fe9d67c72e", 
+                    "title": "Utilities/StaticAnalysers: Unregister unused getParamDumper checker ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28744", 
+                    "number": "28744", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
+                }, 
+                {
+                    "hash": "f326b4d6d8624c3e2bfe4d2e5504ff2590c43a9c", 
+                    "title": "PPS: faster proton reconstruction", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28738", 
+                    "number": "28738", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "7bcaeda038c3db04a69c2413244e777bf7749ba4", 
+                    "title": "Bugfix: Crash in DaqTestHistograms", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28751", 
+                    "number": "28751", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
+                }, 
+                {
+                    "hash": "76d423b01ffe69247c04ae7de79172201d58b118", 
+                    "title": "Replace tbb::tbb_hash and tbb::tbb_hasher with std::hash", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28750", 
+                    "number": "28750", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.1.ROOT620-fri-23/CMSSW_11_1_ROOT620_X_2020-01-17-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 76
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/fri/11.1.ROOT620-fri-23/CMSSW_11_1_ROOT620_X_2020-01-17-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc820"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc820": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_ROOT620_X_2020-01-15-2300-->CMSSW_11_1_ROOT620_X_2020-01-16-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/thu/11.1.ROOT620-thu-23/CMSSW_11_1_ROOT620_X_2020-01-16-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2020-01-16-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/thu/11.1.ROOT620-thu-23/CMSSW_11_1_ROOT620_X_2020-01-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3164, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_1_ROOT620_X", 
+            "release_name": "CMSSW_11_1_ROOT620_X_2020-01-16-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "b8d6745ee188904bce61732ed98f12c81de523a3", 
+                    "title": "Removing unused variables from \"CTPPSPixelDQMSource.cc\" - fix suggested in PR #28726", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28733", 
+                    "number": "28733", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "AndreaBellora"
+                }, 
+                {
+                    "hash": "e3ac83780c96fee7f4e7dcdf58925fe2b8428606", 
+                    "title": "Clean dependencies for DataFormats/L1TMuon", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28749", 
+                    "number": "28749", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "8426162f4dba2b4161aae7ead03ede2ae7b06c46", 
+                    "title": "PPS: DQM update", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28742", 
+                    "number": "28742", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "5b59a3575de07ab3da0371c50ebe1a0ec6127479", 
+                    "title": "Declare SiTrackerMultiRecHit::cloneSH() to override", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28743", 
+                    "number": "28743", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/thu/11.1.ROOT620-thu-23/CMSSW_11_1_ROOT620_X_2020-01-16-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 14
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/thu/11.1.ROOT620-thu-23/CMSSW_11_1_ROOT620_X_2020-01-16-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc820"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc820": [
+                    {
+                        "hash": "bd0817fae8254f40f640a4201d1542204a8dfc3d", 
+                        "title": "install crab in common; remove crab deps", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5466", 
+                        "number": "5466", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "33ca9b8298de84866cc8343e064e8b9b8e7d7c82", 
+                        "title": "Disable AVX2 for pytables", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5471", 
+                        "number": "5471", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-14-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-15-2300/slc7_amd64_gcc820"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_ROOT620_X_2020-01-14-2300-->CMSSW_11_1_ROOT620_X_2020-01-15-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/wed/11.1.ROOT620-wed-23/CMSSW_11_1_ROOT620_X_2020-01-15-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2020-01-15-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/wed/11.1.ROOT620-wed-23/CMSSW_11_1_ROOT620_X_2020-01-15-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3164, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_1_ROOT620_X", 
+            "release_name": "CMSSW_11_1_ROOT620_X_2020-01-15-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "b4ebcd1821622801f32808481157d6eff3551de3", 
+                    "title": "Reduce dependencies on RecoEgamma and requirements for RecoEgamma", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28684", 
+                    "number": "28684", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "57553401c56bd9417f87efe0c28a62e690e55ff1", 
+                    "title": "Support of plot-specific input paramters for Payload Inspector", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28648", 
+                    "number": "28648", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/wed/11.1.ROOT620-wed-23/CMSSW_11_1_ROOT620_X_2020-01-15-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 145
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/wed/11.1.ROOT620-wed-23/CMSSW_11_1_ROOT620_X_2020-01-15-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc820"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc820": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-13-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_ROOT620_X_2020-01-14-2300/slc7_amd64_gcc820"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-14-2300/slc7_amd64_gcc820"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_ROOT620_X_2020-01-13-2300-->CMSSW_11_1_ROOT620_X_2020-01-14-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/11.1.ROOT620-tue-23/CMSSW_11_1_ROOT620_X_2020-01-14-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2020-01-14-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/11.1.ROOT620-tue-23/CMSSW_11_1_ROOT620_X_2020-01-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3164, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_1_ROOT620_X", 
+            "release_name": "CMSSW_11_1_ROOT620_X_2020-01-14-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "510b5def2d58ae01c64d9b86cbe6be7ceaee83c9", 
+                    "title": "CaloParticle additional hitsAndEnergies from SimClusters: data format change", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28579", 
+                    "number": "28579", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bmarzocc"
+                }, 
+                {
+                    "hash": "dbced6d05deaf8a4f2e22b43e6ba03de0873e1af", 
+                    "title": "esConsumes migration, 4 more modules", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28710", 
+                    "number": "28710", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wddgit"
+                }, 
+                {
+                    "hash": "a8b6fa2f28a219f2b4f871b11609cd595d8832ec", 
+                    "title": "Add CMS_SA_ALLOW before try statements where catch (...) is used to skip static analyzer warning.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28715", 
+                    "number": "28715", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
+                }, 
+                {
+                    "hash": "709db16fb329d9f3283008c96a4b96a7c389c9e3", 
+                    "title": "Fix muon track producer and muon hl tvalidation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28662", 
+                    "number": "28662", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "abbiendi"
+                }, 
+                {
+                    "hash": "9472f998d3777c164a8fced0e2e9c45d2b431057", 
+                    "title": "DQM: New tests and Demo", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28612", 
+                    "number": "28612", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "schneiml"
+                }, 
+                {
+                    "hash": "eb057df93e08fb0b3a3b7e5273ebc69219730adb", 
+                    "title": "esConsumes migration DTChamberEfficiency", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28730", 
+                    "number": "28730", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wddgit"
+                }, 
+                {
+                    "hash": "4e7a960a139dc9654fd4b311a3a2e7a7935d2b28", 
+                    "title": "Payload Inspector: add more two-tags comparisons", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/28725", 
+                    "number": "28725", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/11.1.ROOT620-tue-23/CMSSW_11_1_ROOT620_X_2020-01-14-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 145
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/11.1.ROOT620-tue-23/CMSSW_11_1_ROOT620_X_2020-01-14-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc820"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc820": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-13-2300/slc7_amd64_gcc820..IB/CMSSW_11_1_ROOT620_X_2020-01-13-2300/slc7_amd64_gcc820"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc820": "IB/CMSSW_11_1_ROOT620_X_2020-01-13-2300/slc7_amd64_gcc820"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_1_X", 
+            "compared_tags": "CMSSW_11_1_ROOT620_X_2020-01-13-2300-->CMSSW_11_1_ROOT620_X_2020-01-13-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.1.ROOT620-mon-23/CMSSW_11_1_ROOT620_X_2020-01-13-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2020-01-13-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.1.ROOT620-mon-23/CMSSW_11_1_ROOT620_X_2020-01-13-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3137, 
+                        "known_failed": 0, 
+                        "num_failed": 10
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_1_ROOT620_X", 
+            "release_name": "CMSSW_11_1_ROOT620_X_2020-01-13-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.1.ROOT620-mon-23/CMSSW_11_1_ROOT620_X_2020-01-13-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 144
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": "passed"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc820", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.1.ROOT620-mon-23/CMSSW_11_1_ROOT620_X_2020-01-13-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}
